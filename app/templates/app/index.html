@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Montoya</title>
+    {% load static %}
+    <link href="{% static 'css/styles.css' %}"  rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="nav-item">Home</a>
+        <a href="#Projects" class="nav-item">Projects</a>
+        <a href="#Skills" class="nav-item">Skills</a>
+        <a href="#Contact" class="nav-item">Contact</a>
+    </nav>
+    <!-----Primer contenido-->
+    <div class="containerHeadText">
+        <h2 class="title">Bienvenido a mi portafolio</h2>
+        <p class="textWelcome">Hola, mi nombre es Christian Montoya y te doy la cordial bienvenida a mi portafolio web :). 
+           <br>Actualmente soy estudiante de Ingeniería en informática y me apasiona el mundo del desarrollo de software. Ya que estás aquí, te invito a navegar por mi web 
+        en donde podrás saber un poco más acerca de mis habilidades y experiencias.</p>
+    </div>
+    <img src="{% static 'img/background2.jpg' %}" class="img">
+    <div class="containerBottomText">
+        <p class="textDescription">
+            Aquí podría mostrar mi proyecto actual en desarrollo para captar un poco mas al usuario, para rellenar con un poc mas de informacion
+        </p>
+    </div>
+    <!-----Contenedor de tarjetas-->
+    <div id="Projects"></div>
+    <div class="containerCards">
+        <div class="containerCard">
+            <img class="imgCard">
+            <div class="containerDescription">
+                <h5 class="titleCard">Title example</h5>
+                <p class="descriptionCard">Aqui deberia haber una descripción de cada proyecto realizado</p>
+            </div>
+        </div>
+        <div class="containerCard">
+            <img class="imgCard">
+            <div class="containerDescription">
+                <h5 class="titleCard">Title example</h5>
+                <p class="descriptionCard">Aqui deberia haber una descripción de cada proyecto realizado</p>
+            </div>
+        </div>
+        <div class="containerCard">
+            <img class="imgCard">
+            <div class="containerDescription">
+                <h5 class="titleCard">Title example</h5>
+                <p class="descriptionCard">Aqui deberia haber una descripción de cada proyecto realizado</p>
+            </div>
+        </div>
+        <div class="containerCard">
+            <img class="imgCard">
+            <div class="containerDescription">
+                <h5 class="titleCard">Title example</h5>
+                <p class="descriptionCard">Aqui deberia haber una descripción de cada proyecto realizado</p>
+            </div>
+        </div>
+        <div class="containerCard">
+            <img class="imgCard">
+            <div class="containerDescription">
+                <h5 class="titleCard">Title example</h5>
+                <p class="descriptionCard">Aqui deberia haber una descripción de cada proyecto realizado</p>
+            </div>
+        </div>
+        <div class="containerCard">
+            <img class="imgCard">
+            <div class="containerDescription">
+                <h5 class="titleCard">Title example</h5>
+                <p class="descriptionCard">Aqui deberia haber una descripción de cada proyecto realizado</p>
+            </div>
+        </div>
+        <div class="containerCard">
+            <img class="imgCard">
+            <div class="containerDescription">
+                <h5 class="titleCard">Title example</h5>
+                <p class="descriptionCard">Aqui deberia haber una descripción de cada proyecto realizado</p>
+            </div>
+        </div>
+        
+    </div>
+    <!-------Contenedor de skills-->
+    <div id="Skills"></div>
+    <div class="containerSkills">
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/html-5.png' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">HTML5</h5>
+                <p class="descriptionCard">Utilizo HTML para la creación del esqueleto de mi página</p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/css-3.png' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">CSS</h5>
+                <p class="descriptionCard">Me gusta utilizar CSS para el diseño de mis páginas web a pesar de que existan frameworks de estilos</p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/js.png' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">JAVASCRIPT</h5>
+                <p class="descriptionCard">JAVASCRIPT es un lenguaje que utilizo para la interacción web y para desarrollo movil</p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/piton.png' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">PYTHON</h5>
+                <p class="descriptionCard">Python fue uno de mis primeros lenguajes de programación, me gusta y lo utilizo con el framework DJANGO </p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/java.png' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">JAVA</h5>
+                <p class="descriptionCard">JAVA es un lenguaje que me ha costado aprender pero a pesar de las dificultades pude manejarlo</p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/react.svg' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">REACT NATIVE</h5>
+                <p class="descriptionCard">REACT NATIVE es mi primer framework para el desarrollo movil y un escalón para aprender junto a JAVASCRIPT</p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/oracle.svg' %}" style="background-color: #ffffff;border-radius: 100%;">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">ORACLE</h5>
+                <p class="descriptionCard">Mi formación está vinculada a bases de datos en ORACLE</p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/firebase.svg' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">FIREBASE</h5>
+                <p class="descriptionCard">Utilizar el SDK de FIREBASE con REACT NATIVE hace mucho mas facil y rápida la implementación de una app sin necesidad de contar un servidor</p>
+            </div>
+        </div>
+        <div class="containerSkill">
+            <div class="containerImgSkill">
+                <img class="imgSkill" src="{% static 'icons/github.png' %}">
+            </div>
+            <div class="containerDescription">
+                <h5 class="titleCard">GITHUB</h5>
+                <p class="descriptionCard">Utilizo versionamiento GITHUB para todos mis proyectos</p>
+            </div>
+        </div>
+    </div>
+    <div id="Contact"></div>
+    <div class="containerForm">
+        <div class="infoCard">
+            <img class="imgInfoCard" src="{% static 'img/avatar.png' %}">
+            <p class="descCard"> Ya que conoces un poco acerca de mis habilidades y experiencias, te quiero dejar invitado a que me escribas acerca de tus intereses luego de ver mi portafolio</p>
+        </div>
+        <form class="form" action="#Contact">
+            <label class="labelName">Nombre</label>
+            <input class="inputName">
+            <label class="labelEmail">Correo</label>
+            <input class="inputEmail">
+            <label class="labelComment">Mensaje</label>
+            <textarea class="inputComment" rows="5" cols="50" name="comment" form="form"></textarea>
+            <button class="btn-submit" type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="containerCardFooter">
+            <h3 class="titleFooter">Acerca</h3>
+            <p class="textFooter">Este sitio web fue construido con la intención de mostrar una imagen representativa acerca de mi perfil profesional y persona.</p>
+        </div>
+        <div class="containerCardFooter">
+            <h3 class="titleFooter">Redes sociales</h3>
+            <div class="containerIcons">
+                <div class="row">
+                    <img src="{% static  'icons/facebook.png '%}" class="icon">
+                    <a class="iconLabel" href="https://www.facebook.com">www.facebook.com</a>
+                </div>
+                <div class="row">
+                    <img src="{% static  'icons/instagram.png '%}" class="icon">
+                    <a class="iconLabel" href="https://www.instagram.com">www.instagram.com</a>
+                </div>
+                <div class="row">
+                    <img src="{% static  'icons/linkedin.png '%}" class="icon">
+                    <a class="iconLabel" href="https://www.linkedin.com">www.linkedin.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="containerCardFooter">
+            <h3 class="titleFooter">Términos de uso</h3>
+            <p class="textFooter">@Copyright 2022. Todos los derechos reservados por Christian Montoya</p>
+        </div>
+    </footer>
+</body>
+</html>
