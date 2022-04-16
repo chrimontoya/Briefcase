@@ -8,6 +8,11 @@ body{
     color: #323232;
 }
 
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #323232;
+}
+
 .navbar{
     display: flex;
     flex-flow: row wrap;
@@ -49,15 +54,20 @@ body{
 .textDescription{
     color: #323232;
 }
-
+.containerProjects{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.titleProject{
+    text-align: center;
+}
 .containerCards{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     width: 70%;
     margin: auto;
-    margin-top: 200px;
-    margin-bottom: 200px;
+
 }
 .containerCard{
     background-color: #F7F9F7;
@@ -84,15 +94,20 @@ body{
     text-align: center;
 }
 
+/* Estilos para las tarjetas de skills*/
+.containerCardSkills{
+    background-color: #9FB1BC;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.titleSkills{
+    text-align: center;
+}
 .containerSkills{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    align-items: center;
     margin: auto;
-    background-color: #9FB1BC;
-    padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 .containerSkill{
@@ -109,15 +124,36 @@ body{
     margin: auto;
 }
 
-.containerForm{
+.containerDescriptionSkill{
+    flex-direction: row;
+}
+.titleSkill{
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.descriptionSkill{
+    text-align: center;
+}
+
+/*Estilos para el formulario de contacto*/
+.containerContact{
     background-color: #8BBF9F;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.titleContact{
+    text-align: center;
+    margin: 0;
+}
+.containerForm{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-flow: wrap row;
     flex-wrap: wrap;
-    align-items: center;
-    height: 600px;
+    align-items: center
 }
 .infoCard{
     display: flex;
@@ -213,6 +249,7 @@ body{
 }
 .titleFooter{
     margin: 20px;
+    color: #FBF5F3;
 }
 .textFooter{
     margin: 20px;
